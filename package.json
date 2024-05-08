@@ -1,0 +1,17 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "setup": "pnpm run setup:npm && pnpm run setup:mods",
+    "setup:npm": "cd main && HUGO_MODULE_WORKSPACE=hugo.work hugo mod npm pack && pnpm install",
+    "setup:mods": "cd main && HUGO_MODULE_WORKSPACE=hugo.work hugo mod vendor && perl -pi -e 's/ \n/ v1\n/' _vendor/modules.txt",
+    "dev": "cd main && HUGO_MODULE_WORKSPACE=hugo.work hugo server --disableFastRender -D --logLevel debug --ignoreVendorPaths '**' -b 'http://localhost:1313' --gc",
+    "clean": "cd main && HUGO_MODULE_WORKSPACE=hugo.work hugo mod clean && rm -rf _vendor public resources hugo_stats.json"
+  
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,9 @@
+[[plugins.js]]
+link = "js/search.js"
+
+[search]
+enable = true
+primary_color = "#0075c2"
+include_all_sections = true
+show_image = true
+show_description = true

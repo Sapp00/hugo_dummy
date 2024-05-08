@@ -1,0 +1,18 @@
+baseURL = 'http://localhost:1313'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+
+[build]
+writeStats = true
+[[build.cachebusters]]
+  source = "assets/watching/hugo_stats\\.json"
+  target = "styles\\.css"
+[[build.cachebusters]]
+    source = "(postcss|tailwind)\\.config\\.js"
+    target = "css"
+[[build.cachebusters]]
+    source = "assets/.*\\.(js|ts|jsx|tsx)"
+    target = "js"
+[[build.cachebusters]]
+  source = "assets/.*\\.(.*)$"
+  target = "$1"

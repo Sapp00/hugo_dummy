@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Loool on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/loool/</link>
+    <description>Recent content in Loool on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 05 May 2024 12:22:24 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/loool/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Entry</title>
+      <link>http://localhost:1313/blog/2024/my-first-entry/</link>
+      <pubDate>Sun, 05 May 2024 12:22:24 +0200</pubDate>
+      <guid>http://localhost:1313/blog/2024/my-first-entry/</guid>
+      <description>Diving deeper into design principles and methodologies Lorem&amp;hellip;</description>
+    </item>
+  </channel>
+</rss>

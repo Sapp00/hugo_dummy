@@ -1,0 +1,21 @@
+[[main]]
+    name = "Home"
+    pre-density = "ph-bold"
+    pre = "ph-bold ph-house"
+    url = "/"
+    weight = 1
+[[main]]
+    name = "Blog"
+    pre = "ph-thin ph-notebook"
+    url = "/blog/"
+    weight = 2
+[[main]]
+    name = "About"
+    pre = "ph-thin ph-user"
+    url = "/about"
+    weight = 3
+[[main]]
+    name = "Contact"
+    pre = "ph-duotone ph-envelope-simple"
+    url = "/contact"
+    weight = 3

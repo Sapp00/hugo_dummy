@@ -1,0 +1,18 @@
+hugoVersion:
+    extended: true
+    min: "0.124.1"
+
+workspace: "off"
+#proxy: direct
+
+imports:
+#    - path: github.com/google/docsy
+#      disable: false
+    - path: github.com/sapp00/my_blog/theme
+      disable: false
+    - path: github.com/sapp00/my_blog/content
+      disable: false
+
+      mounts:
+        - source: content
+          target: content
