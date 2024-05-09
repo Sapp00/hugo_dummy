@@ -1,6 +1,6 @@
 ############################# Outputs ##############################
 [outputs]
-home = ["SearchIndex"]
+home = ["SearchIndex", "html", "rss"]
 
 ############################ Output Format ###########################
 [outputFormats]
